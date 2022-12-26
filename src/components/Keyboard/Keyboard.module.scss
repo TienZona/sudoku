@@ -1,0 +1,49 @@
+.box {
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 40px 0;
+    border-radius: 2px;
+}
+.number-list {
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    background-color: #dde8f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.number-item {
+    width: 25%;
+    margin: 3.333%;
+    height: 25%;
+    border-radius: 4px;
+    background-color: #a76322;
+    color: #fff;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.2s;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.number-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.delete-item {
+    width: 60px;
+    height: 40px;
+    margin: 20px 70px;
+    display: flex;
+    background-color: rgb(223, 89, 89);
+}
+
+.delete-item:hover {
+    cursor: pointer;
+    background-color: red;
+}

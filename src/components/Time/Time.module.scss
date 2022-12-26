@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #333;
+    padding: 6px 0 6px 6px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.content {
+    width: 100px;
+    font-size: 20px;
+    color: red;
+    border-radius: 3px;
+    margin: 0 6px;
+    background-color: #fff;
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

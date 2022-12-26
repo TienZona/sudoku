@@ -1,0 +1,23 @@
+.list-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-item {
+    width: 140px;
+    height: 40px;
+    background-color: #d4d9a7;
+    border-radius: 2px;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.2s;
+}
+
+.btn-item:hover {
+    cursor: pointer;
+    background-color: #f2f3e9;
+}
